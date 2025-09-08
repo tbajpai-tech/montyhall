@@ -1,11 +1,12 @@
 Package: montyhall
-Title: What the Package Does (One Line, Title Case)
+Title: Simulations of the Monty Hall problem
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Tanu", "Bajpai", , "tanu.bajpai@asu.edu", role = c("aut", "cre"))
+Description: The package provided functions to simulate and analyze the Monty Hall Problem, a probability puzzle based on the game show "Let's Make a Deal". Users can play single game, run large simulations, and compare strategies such as staying with the original choice or switching to another door. The package is designed for teaching probability, running experiments, and exploring game theory outcomes.
+Depends:
+  dplyr
+License: What license it uses
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
