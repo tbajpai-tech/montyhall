@@ -195,10 +195,11 @@ determine_winner <- function( final.pick, game )
 #' `play_games()` determines the contestant wins a car or loses.
 #'
 #' @details
-#' This function wraps all the steps: create a game, select a door, open a goat door #' and decide whether to stay or witch. It returns the outcomes for both strategies.
+#' This function wraps all the steps: create a game, select a door, open a goat door 
+#' and decide whether to stay or witch. It returns the outcomes for both strategies.
 #'
 #' @param 
-#' NO arguments are used by this function.
+#' No arguments are used by this function.
 #'
 #' @return 
 #' A data frame with two rows:
@@ -256,7 +257,8 @@ play_game <- function( )
 #' corresponding outcome ("WIN" or "LOSE") for each game played.
 #'
 #' @examples
-#' # Simulates 50 Monty Hall games #' results <- play_n_games(50)
+#' # Simulates 50 Monty Hall games 
+#' results <- play_n_games(50)
 #' @export
 play_n_games <- function( n=100 )
 {
