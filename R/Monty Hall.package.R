@@ -152,7 +152,7 @@ change_door <- function( stay=T, opened.door, a.pick )
 #' Determine the game outcome.
 #'
 #' @description
-#' `detremine_winner()` determines the contestant wins a car or loses.
+#' `determine_winner()` determines the contestant wins a car or loses.
 #'
 #' @details
 #' Compares the contestant's final pick with the game setup.
